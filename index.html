@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link href="css/lightbox.css" rel="stylesheet">
+    <link rel="icon" href="images/favicon.png" type="image/png">
+    <title>Д.К.С</title>
+</head>
+<body class="light-mode">
+  <a href="#main" tabindex="0">Skip to main content</a>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Home</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+                <div class="offcanvas-header">
+                  <span class="offcanvas-title" id="offcanvasDarkNavbarLabel">меню</span>
+                  <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="index.html">Главная</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="about_me.html">Обо Мне</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="my_courses.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Мои курсы
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-dark">
+                          <li><a class="dropdown-item" href="my_courses.html#tksu">Калужский государственный<br>университет</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="my_hobbies.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Мои увлечения
+                          </a>
+                          <ul class="dropdown-menu dropdown-menu-dark">
+                            <li><a class="dropdown-item" href="my_hobbies.html#learning">Прогресс</a></li>
+                            <li>
+                              <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="my_hobbies.html#staying_fit">Оставаться в форме</a></li>
+                          </ul>
+                      </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    
+<figure class="my_photo"><img src="images/Ksousha.jpg" alt="My professional photo" title="Yeah, this is me :&#41;">
+</figure>
+<div class="container">
+  <div class="row justify-content-md-center">
+    <div class="col-12 col-md-10 col-lg-8">
+
+   
+<section id="main">
+    <h1 tabindex="0">Обо Мне</h1>
+    <p>Меня зовут Ксения Шаталова, мне 20 лет, и в настоящее время я учусь на третьем курсе медицинского факультета Калужского
+    университета. Я самая умная из всех.</p>
+</section>
+</div>
+</div>
+</div>
+
+<div class="carrousel">
+     <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+      <div class="carousel-item active">
+      <img src="images/Ksousha_1.jpg" class="d-block w-100" alt="Yeah i'm beautiful">
+      </div>
+      <div class="carousel-item">
+      <img src="images/Ksousha_7.jpg" class="d-block w-100" alt="Me in the sea">
+      </div>
+      <div class="carousel-item">
+      <img src="images/Ksousha_8.jpg" class="d-block w-100" alt="Me in the sea too">
+      </div>
+      <div class="carousel-item">
+      <img src="images/Ksousha_4.jpg" class="d-block w-100" alt="Me at the Museum">
+      </div>
+    </div>
+     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</div>
+
+
+<div class="container skills-container">
+  <div class="row">
+      <div class="col-12 skill">
+          <span class="skill-name">Клинические знания</span>
+          <div class="progress">
+              <div class="progress-bar" style="width: 100%;">200%</div>
+          </div>
+      </div>
+
+      <div class="col-12 skill">
+          <span class="skill-name">Предметы Штаниной и Светланой</span>
+          <div class="progress">
+              <div class="progress-bar" style="width: 100%;">120%</div>
+          </div>
+      </div>
+
+      <div class="col-12 skill">
+          <span class="skill-name">Навыки решения проблем</span>
+          <div class="progress">
+              <div class="progress-bar" style="width: 100%;">100%</div>
+          </div>
+      </div>
+
+      <div class="col-12 skill">
+          <span class="skill-name">Межличностное общение</span>
+          <div class="progress">
+              <div class="progress-bar" style="width: 100%;">100%</div>
+          </div>
+      </div>
+
+      <div class="col-12 skill">
+          <span class="skill-name">Настрой на непрерывное обучение</span>
+          <div class="progress">
+              <div class="progress-bar" style="width: 100%;">100%</div>
+          </div>
+      </div>
+  </div>
+</div>
+
+<!-- Fenêtre modale pour envoyer un email -->
+<div class="modal fade" id="emailModal" tabindex="-1" aria-labelledby="emailModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+      <div class="modal-content">
+          <div class="modal-header">
+              <span class="modal-title" id="emailModalLabel">Send an email</span>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+              <form id="emailForm">
+                  <div class="mb-3">
+                      <label for="emailAddress" class="form-label">Your email</label>
+                      <input type="email" class="form-control" id="emailAddress" required>
+                  </div>
+                  <div class="mb-3">
+                      <label for="emailSubject" class="form-label">Subject</label>
+                      <input type="text" class="form-control" id="emailSubject" required>
+                  </div>
+                  <div class="mb-3">
+                      <label for="emailBody" class="form-label">Message</label>
+                      <textarea class="form-control" id="emailBody" rows="3" required></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-primary">Send</button>
+              </form>
+          </div>
+      </div>
+  </div>
+</div>
+<!-- Toast de confirmation d'envoi d'email -->
+<div class="toast-container position-fixed bottom-0 end-0 p-3">
+  <div id="emailToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+      <div class="toast-header">
+          <strong class="me-auto">Notification</strong>
+          <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+      </div>
+      <div class="toast-body">
+          Your email has been sent!
+      </div>
+  </div>
+</div>
+
+
+    <footer>
+
+        <div class="icones">
+
+          <!-- Bouton d'email qui ouvre la modale -->
+        <a href="#" data-bs-toggle="modal" data-bs-target="#emailModal" aria-label="Send me an email">
+          <i class="fa-regular fa-envelope" title="Send me an email"></i>
+      </a>
+
+            <a href="https://facebook.com" aria-label="Follow me on Facebook" target="_blank">
+                <i class="fa-brands fa-facebook" title="Follow me on Facebook"></i></a>
+
+            <a href="https://www.instagram.com/kkksht_up" aria-label="Follow me on Instagram" target="_blank">
+            <i class="fa-brands fa-instagram" title="Follow me on Instagram"></i></a>
+
+            <a href="https://vk.com/kkksht_up" aria-label="Follow me on VK" target="_blank">
+            <i class="fa-brands fa-vk" title="Follow me on VK"></i></a>
+        </div>
+
+        <small>&copy; Khouja Rayan 2024</small>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <script src="js/script.js"></script>
+
+    <script src="js/lightbox-plus-jquery.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,274 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/*
+        General Style    
+                                              */
+
+header {
+    margin-bottom: 10vh;
+}
+
+
+body {
+    background: linear-gradient(#3c3960, #9fc9d1);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family:  'Times New Roman', Times, Georgia, sans-serif;
+}
+
+body > a:focus {
+    position: relative;
+    left: 100px;
+    top: 100px;
+}
+
+
+
+section {
+    text-align: center;
+    font-size: 150%;
+    padding-top: 8vh;
+}
+
+section h1 {
+    font-weight: bold;
+}
+
+.map {
+    display: block;
+    margin: auto;
+    width: 80%;
+    height: 30vh;
+}
+
+.images img:hover, .my_photo img:hover {
+    scale:1.5;
+}
+
+.images img:focus {
+    scale: 1.2;
+}
+
+
+
+/*
+                  Home (about me)
+                                                */
+
+.my_photo {
+    text-align: center;
+}
+
+.my_photo img {
+    height: 50%; 
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 3vh;
+}
+
+
+.carrousel {
+    padding-top: 5vh;
+    margin: auto;
+    width: 60%;
+}
+
+.carrousel img {
+    height: 60vh;
+}
+
+
+
+
+
+             /*Barres de progression*/
+
+/* Container pour centrer la section */
+.skills-container {
+    max-width: 500px;
+    padding: 3%;
+}
+
+/* Style de base pour chaque compétence */
+.skill {
+    margin-bottom: 4vh;
+}
+
+/* Style du nom de la compétence */
+.skill-name {
+    font-weight: bold;
+    font-size: 1.3rem;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+/*
+                 About Me
+                                                */
+
+
+
+.images figure {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2vh;
+}
+
+figure img {
+    padding: .5%;
+    border: #000 solid 5px;
+}
+
+.text {
+    display: inline-block;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    vertical-align: text-top;
+}
+
+
+
+
+/*
+                    Footer
+                                                */ 
+
+footer {
+    line-height: 10vh;
+    margin-top: 10vh;
+}
+
+.icones a {
+    margin-top: 5vh;
+    margin-left: 2vw;
+}
+
+i {
+    color: #000;
+}
+
+
+small {
+    margin-left: 5vw;
+}
+
+
+@media (prefers-reduced-motion: reduce) {
+    .carousel-item {
+        transition: none;
+        animation: none;
+    }
+}
+
+
+@media (prefers-color-scheme: light) {
+    body {
+        background: #ffffff;
+        color: #000000;
+    }
+
+    footer {
+        background: #f8f9fa;
+        color: #212529;
+    }
+
+}
+
+
+@media (prefers-contrast: more) {
+    body {
+        background-color: #000000;
+        color: #ffffff;
+    }
+
+    header, footer {
+        background-color: #333333;
+        color: #ffffff;
+    }
+
+    a {
+        color: #00ffff; 
+    }
+
+    .btn {
+        background-color: #ffcc00;
+        color: #000000;
+    }
+
+    .progress-bar {
+        background-color: #ff5733;
+    }
+}
+
+
+
+@media (prefers-contrast: less) {
+    body {
+        background-color: #f7f7f7;
+        color: #333333;
+    }
+
+    header, footer {
+        background-color: #eeeeee;
+        color: #555555;
+    }
+
+    a {
+        color: #007acc; 
+    }
+
+    .btn {
+        background-color: #d9d9d9;
+        color: #333333;
+    }
+
+}
